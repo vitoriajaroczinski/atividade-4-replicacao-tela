@@ -1,0 +1,61 @@
+Body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(238, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cabecalho{
+    background-color: rgb(192, 190, 190);     
+    margin: 0 auto;
+    height: 25px;
+
+}
+
+.barra-longa {
+    width: 100%; 
+    height: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+   
+}
+
+.flex{
+    display: flex;
+}
+.fundo{
+    background-color:whitesmoke;
+    width: 2400px;
+    height: 1400px;
+    margin: 0 auto;
+}
+.esticar{
+    padding-bottom:400px;
+    color: rgb(176, 205, 231)
+}
+.alongar{
+padding-right: 490px;
+color: rgb(176, 205, 231)
+}
+
+.caixa{
+    background-color: yellow;
+    padding: 80px;
+    margin: 10px;
+}
