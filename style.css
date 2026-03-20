@@ -27,9 +27,7 @@ h4 {
     cursor: pointer;
 
 }
-.bi-x-lg{
-    color:black;
-}
+
 
 .conteudo_aba {
     display: flex;       
@@ -44,12 +42,16 @@ h4 {
 
 }
 
+
+
 .barra-longa {
-    width: 100%; 
-    height: 10px;
-    background-color: yellow;
-    border-radius: 5px;
+     background-color: rgb(248, 194, 47);
+  height: 10px;
    
+}
+
+.flex{
+    display: flex;
 }
 
 .barra_ferramentas{
@@ -86,8 +88,23 @@ h4 {
 
 .apagado{
     color: #999;
+    
 }
 
+.amarelo{
+    background-color: yellow;
+    padding: 80px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+}
+
+.azul{
+    background-color: #71a2eb;
+    border: 1px solid #71a2eb;
+}
 .nav_esquerda {
     display: flex;
     justify-content: space-between; 
@@ -99,7 +116,21 @@ h4 {
     height: 40px;
     width: 250px;
 }
+.nav_direita {
+    display: flex;    
+    align-items: center;
+    background-color: #f0f0f0;   
+    width: 60%;
+   
+    border-bottom: 2px solid #005691; 
+    font-family: Arial, sans-serif;
+   
+    
+}
 
+#direita {
+    width: 100%;
+}
 .nav_tabs {
     display: flex;
     gap: 20px;
@@ -114,11 +145,10 @@ h4 {
     color: #666; 
     cursor: pointer;
     position: relative;
+    
 }
 
-.tab.active {
-    color: #000; 
-}
+
 
 .area-tabela {
     width: 300px; 
@@ -135,9 +165,11 @@ h4 {
     background-color: #e5e5e5;
     border: 1px solid #ccc;
     padding: 6px;
+    padding-right: 60%;
     text-align: left;
     font-weight: normal;
 }
+
 
 .tabela-sap td {
     border: 1px solid #ddd;
@@ -159,11 +191,43 @@ h4 {
     margin: 0 auto;
 }
 .esticar{
-    padding-bottom:400px;
-    color: rgb(176, 205, 231)
+    padding: 80px;
+    margin: 10px;
+    color: rgb(192, 216, 243);
 }
 .alongar{
 padding-right: 490px;
 color: rgb(176, 205, 231)
 }
+.flex{
+    display: flex;
+}
+.alongarmenos{
+padding-right: 270px;
+  width: 830px;
+     height: 190px;
+}
+.esticarmenos{
+    padding-bottom:270px;
+}
+.azul2{
+    background-color: #9bc5ec;
+     margin: 10px;
+     padding: 80px;
+     box-sizing: border-box;
+}
+.bloco {
+    padding-right: 270px;
+  width: 415px;
+     height: 190px;
+    
+
+}
+.logo-robo{
+    width: 15%;
+
+}
+
+
+
 
